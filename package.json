@@ -1,15 +1,22 @@
+
+"type": "git",
+
+
 {
     "name": "angular-nodejs-mongodb-customersservice",
     "version": "1.0.0",
     "repository": {
-        "url": "https://github.com/DanWahlin/Angular-NodeJS-MongoDB-CustomersService"
+        "type": "git",
+        "url": "https://github.com/asurur/NodeAngular.git"
     },
     "license": "MIT",
     "scripts": {
+      
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "server": "node server.js",
-        "start": "concurrently \"npm run tsc:w\" \"nodemon server.js\""
+        "start": "node server.js",
+       // "start": "concurrently \"npm run tsc:w\" \"node server.js\""
     },
     "dependencies": {
         "@angular/animations": "^5.0.0",
