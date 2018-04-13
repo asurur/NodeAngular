@@ -1,6 +1,4 @@
 
-"type": "git",
-
 
 {
     "name": "angular-nodejs-mongodb-customersservice",
@@ -15,8 +13,7 @@
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "server": "node server.js",
-        "start": "node server.js",
-       // "start": "concurrently \"npm run tsc:w\" \"node server.js\""
+        "start": "node server.js"
     },
     "dependencies": {
         "@angular/animations": "^5.0.0",
